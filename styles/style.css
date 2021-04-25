@@ -1,0 +1,90 @@
+/* Website Theme */
+html {
+    font-size: 12px;
+    font-family: 'Roboto Slab', serif;
+    background-color: #ffffff;
+}
+
+body {
+  margin: 0 auto;
+  border: 5px solid rgb(255, 255, 255);
+  padding: 0 20px 20px 20px;
+  background-color: #ffffff;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #8faae5;
+    text-shadow: 3px 3px 1px black;
+  }
+
+h2 {
+    text-align: center;
+}  
+  
+a, p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+
+/*Image specs*/
+img {
+    display: block;
+    max-width: 400px;
+    max-height: 300px;
+    margin: 30px auto;
+    
+}
+
+/*Bootstrap Header*/
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.form-control-dark {
+  color: #fff;
+  background-color: var(--bs-dark);
+  border-color: var(--bs-gray);
+}
+.form-control-dark:focus {
+  color: #fff;
+  background-color: var(--bs-dark);
+  border-color: #fff;
+  box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.text-small {
+  font-size: 85%;
+}
+
+.dropdown-toggle {
+  outline: 0;
+}
+
+
+/*
+ * Footer
+ */
+ .blog-footer {
+  padding: 2.5rem 0;
+  color: #727272;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}

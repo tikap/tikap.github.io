@@ -57,6 +57,11 @@ body {
   color: #806c00;
 }
 
+.nav-masthead .minor:hover,
+.nav-masthead .minor:focus {
+  border-bottom-color: #806c00;
+}
+
 .nav-masthead .minor-active {
   color: #a8983f;
   border-bottom-color: #a8983f;

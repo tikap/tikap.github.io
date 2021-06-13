@@ -51,17 +51,17 @@
       <p>Phone Number: +1 519 760 2890</p>
       <p class="text-muted"><em>... or just enter the form below!</em></p>
 
-      <form>
+      <form method="POST" class="contact-form">
         <div class="form-group">
 
           <label for="Name_Input">Your Name</label>
-          <input type="text" class="form-control" id="Name_Input" placeholder="First Name and Last Name">
+          <input type="text" class="form-control name" id="Name_Input" name="Name_Input" placeholder="First Name and Last Name">
 
           <label for="Email_Input">Your Email Address</label>
-          <input type="email" class="form-control" id="Email_Input" placeholder="name@example.com">
+          <input type="email" class="form-control email" id="Email_Input" name="Name_Input" placeholder="name@example.com">
 
           <label for="Message_Input">Your Message</label>
-          <textarea class="form-control" id="Message_Input" rows="3"></textarea>
+          <textarea class="form-control message" id="Message_Input" name="Message_Input" rows="3"></textarea>
 
           <button type="submit" class="btn btn-secondary">Send</button>
           <button type="reset" class="btn btn-secondary">Clear</button>
@@ -80,7 +80,8 @@
   </div>
 
   <!-- JavaScript -->
-  <script src="scripts/main.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="../scripts/contact.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
   </script>

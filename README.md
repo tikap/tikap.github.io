@@ -4,6 +4,5 @@ Killing two birds with one stone by combining my exploration of front-end develo
 
 To do:
 - Edit Contact Me page
-    - name and email on same row
+    - left align input labels
     - enlarge text box
-- Add About Me page content

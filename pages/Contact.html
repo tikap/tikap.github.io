@@ -53,13 +53,17 @@
 
       <form method="POST" class="contact-form">
         <div class="form-group">
-
-          <label for="Name_Input">Your Name</label>
-          <input type="text" class="form-control name" id="Name_Input" name="Name_Input" placeholder="First Name and Last Name">
-
-          <label for="Email_Input">Your Email Address</label>
-          <input type="email" class="form-control email" id="Email_Input" name="Name_Input" placeholder="name@example.com">
-
+          <div class="row">
+            <div class="col-md-6">
+              <label for="Name_Input">Your Name</label>
+              <input type="text" class="form-control name" id="Name_Input" name="Name_Input" placeholder="First Name and Last Name">
+            </div>
+            <div class="col-md-6">
+              <label for="Email_Input">Your Email Address</label>
+              <input type="email" class="form-control email" id="Email_Input" name="Name_Input" placeholder="name@example.com">
+            </div>
+          </div>
+          
           <label for="Message_Input">Your Message</label>
           <textarea class="form-control message" id="Message_Input" name="Message_Input" rows="3"></textarea>
 

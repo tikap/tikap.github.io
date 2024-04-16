@@ -3,9 +3,10 @@
 Exploring web development and design.
 
 To do:
+
 - Edit Contact Me page
-    - left align input labels
-    - enlarge text box
+  - left align input labels
+  - enlarge text box
 - Fill content for hardware
 - Fill content for IT
 - Fill content for software
